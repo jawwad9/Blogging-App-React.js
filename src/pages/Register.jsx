@@ -33,7 +33,8 @@ const Register = () => {
 
   return (
     <>
-        <div>Register</div>
+
+    <h1>Register</h1>
 
         <form onSubmit={handleSubmit(registerUserFirebase)}>
           <input type="text" placeholder='Enter your Full Name' {...register("fullName", { required: true })}/>

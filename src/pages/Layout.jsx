@@ -5,11 +5,8 @@ import Navber from '../components/Navber'
 const Layout = () => {
   return (
     <>
-        <div>Layout</div>
-
-        <Navber/>
-        <Outlet/>
-
+      <Navber/>
+      <Outlet/>
     </>
   )
 }
