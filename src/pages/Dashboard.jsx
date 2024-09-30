@@ -41,6 +41,7 @@ const Dashboard = () => {
     }
   };
 
+
   // Add a new blog
   const onSubmit = async (formData) => {
     setIsSubmitting(true);
@@ -105,7 +106,7 @@ const Dashboard = () => {
               <h2 className="text-xl font-semibold mb-2">{item.Title}</h2>
               <p className="text-gray-700">{item.mind}</p>
 
-              <button className="m-3">Edit</button>
+              <button className="m-3" >Edit</button>
               <button className="m-3" onClick={() => deleteBlog(item.id)}>
                 Delete
               </button>
